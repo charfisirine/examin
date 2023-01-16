@@ -1,0 +1,161 @@
+
+
+
+
+/* style du formulaire*/
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #e51c11;
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(228, 104, 104);
+  }
+
+  /* style quiz */
+
+  #quiz{
+    background-color: rgba(1, 102, 254, 0.5);
+    border: none;
+   
+  }
+  #bodyquiz {
+    background-image: url(images/backgroundtp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* Style du footer */
+
+
+footer p{
+    font-size:14px;
+    text-align: left;
+}
+/* espace bettwen les colonees du tableau */
+
+td, th {
+  padding: 0 10px; 
+}
+/*translater le tableau a drite suivant x horizontalement  */
+
+table {
+  transform: translateX(150px);
+}
+
+
+/* espace between social media image */
+#social-media-icons img{
+  padding: 0.25rem 0.75rem; }
+
+/* toglle style */
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .navbar-toggler {
+    transition: none;
+  }
+}
+.navbar-toggler:hover {
+  text-decoration: none;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.navbar-nav-scroll {
+  max-height: var(--bs-scroll-height, 75vh);
+  overflow-y: auto;
+}
+
+/* style hithere */
+
+ #hithere td {
+  padding: 0 70px; 
+}
+
+/* style aboutme */
+
+.aboutme section{
+  background-color: rgb(189, 187, 187);
+  
+}
+
+.aboutme img {
+  float: left; /* floats the image to the right */
+  margin: 0 0 10px 10px; /* adds some space around the image */
+}  
+
+.matiere table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+.matiere th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+
+#bodytp {
+  background-image: url(images/backgroundtp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
